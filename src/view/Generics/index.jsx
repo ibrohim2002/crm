@@ -10,3 +10,6 @@ export const Generics = () => {
     </Container>
   )
 }
+
+
+export default Generics

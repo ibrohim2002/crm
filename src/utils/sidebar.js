@@ -23,7 +23,7 @@ import { Generics } from "../view/Generics";
 // import RolesView from "../view/HR/Roles.jsx";
 // import ListView from "../view/Kurslar/List.jsx";
 // import FieldView from "../view/Kurslar/Field.jsx";
-import UmumiyView from "../view/Sozlamalar/Umumiy.jsx";
+// import UmumiyView from "../view/Sozlamalar/Umumiy.jsx";
 
 const sidebar = [
   {
