@@ -1,11 +1,13 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { Container } from "./style";
 import sidebar from "../utils/sidebar";
+import { Sidebar } from "../components/Sidebar";
 
 export const Root = () => {
   return (
     <Container>
       <Routes>
+        <Route element={<Sidebar/>}>
         {sidebar.map((parent) => {
           const ElementParent = parent.element;
           if (parent?.children?.length) {
@@ -30,6 +32,7 @@ export const Root = () => {
         })}
         <Route path="/" element={<Navigate to={"/analitika"}/>}/>
         <Route path="*" element={<h1>404 not found</h1>}/>
+        </Route>
       </Routes>
     </Container>
   );
