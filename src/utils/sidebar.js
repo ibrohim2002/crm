@@ -101,15 +101,15 @@ const sidebar = [
         element: Generics,
         role: ["admin", "manager"],
       },
-      // {
-      //   id: `4-2`,
-      //   title: "Davomat",
-      //   path: "/talabalar/davomat",
-      //   parentID: 4,
-      //   isPrivate: true,
-      //   element: Generics,
-      //   role: ["admin", "manager"],
-      // },
+      {
+        id: `4-2`,
+        title: "Davomat",
+        path: "/talabalar/davomat",
+        parentID: 4,
+        isPrivate: true,
+        element: Generics,
+        role: ["admin", "manager"],
+      },
       {
         id: `4-3`,
         title: "Aktive",
@@ -128,15 +128,15 @@ const sidebar = [
         element: Generics,
         role: ["admin", "manager"],
       },
-      // {
-      //   id: `4-5`,
-      //   title: "Ota-onalar",
-      //   path: "/talabalar/parents",
-      //   parentID: 4,
-      //   isPrivate: true,
-      //   element: Generics,
-      //   role: ["admin", "manager"],
-      // },
+      {
+        id: `4-5`,
+        title: "Ota-onalar",
+        path: "/talabalar/parents",
+        parentID: 4,
+        isPrivate: true,
+        element: Generics,
+        role: ["admin", "manager"],
+      },
     ],
   },
   {
@@ -145,7 +145,7 @@ const sidebar = [
     path: "/guruhlar",
     isPrivate: true,
     icon: Groups,
-    // element: Generics,
+    element: Generics,
     role: ["admin", "mentor", "manager"],
     children: [
       {
@@ -157,15 +157,15 @@ const sidebar = [
         element: Generics,
         role: ["admin", "manager"],
       },
-      // {
-      //   id: `5-2`,
-      //   title: "Dars Jadvali",
-      //   parentID: 5,
-      //   path: "/guruhlar/jadval",
-      //   isPrivate: true,
-      //   element: Generics,
-      //   role: ["admin", "manager"],
-      // },
+      {
+        id: `5-2`,
+        title: "Dars Jadvali",
+        parentID: 5,
+        path: "/guruhlar/jadval",
+        isPrivate: true,
+        element: Generics,
+        role: ["admin", "manager"],
+      },
       {
         id: `5-3`,
         title: "Xonalar",
@@ -282,22 +282,22 @@ const sidebar = [
       },
     ],
   },
-  {
-    id: 9,
-    title: "Log In",
-    path: "/login",
-    isPrivate: true,
-    element: Generics,
-    hidden: true,
-  },
-  {
-    id: 10,
-    title: "Reset",
-    path: "/reset",
-    isPrivate: true,
-    element: Generics,
-    hidden: true,
-  },
+  // {
+  //   id: 9,
+  //   title: "Log In",
+  //   path: "/login",
+  //   isPrivate: true,
+  //   element: Generics,
+  //   hidden: true,
+  // },
+  // {
+  //   id: 10,
+  //   title: "Reset",
+  //   path: "/reset",
+  //   isPrivate: true,
+  //   element: Generics,
+  //   hidden: true,
+  // },
 ];
 
-export default sidebar;
+export default sidebar
